@@ -1,0 +1,72 @@
+{
+    "Records": [
+        {
+            "EventSourceArn": "arn:aws:dynamodb:us-west-2:473490771156:table/tbl_usdbrl/stream/2024-06-05T01:11:53.832",
+            "AwsRegion": "us-west-2",
+            "Dynamodb": {
+                "ApproximateCreationDateTime": "2024-06-06T20:00:42Z",
+                "Keys": {
+                    "quotation_id": {
+                        "B": null,
+                        "BOOL": null,
+                        "BS": null,
+                        "L": null,
+                        "M": null,
+                        "N": null,
+                        "NS": null,
+                        "NULL": null,
+                        "S": "92d70c06-0aa0-4aea-8b93-f8a50398a227",
+                        "SS": null
+                    }
+                },
+                "NewImage": {
+                    "quotation_id": {
+                        "B": null,
+                        "BOOL": null,
+                        "BS": null,
+                        "L": null,
+                        "M": null,
+                        "N": null,
+                        "NS": null,
+                        "NULL": null,
+                        "S": "92d70c06-0aa0-4aea-8b93-f8a50398a227",
+                        "SS": null
+                    },
+                    "quote_value": {
+                        "B": null,
+                        "BOOL": null,
+                        "BS": null,
+                        "L": null,
+                        "M": null,
+                        "N": "5.249901",
+                        "NS": null,
+                        "NULL": null,
+                        "S": null,
+                        "SS": null
+                    },
+                    "timestamp": {
+                        "B": null,
+                        "BOOL": null,
+                        "BS": null,
+                        "L": null,
+                        "M": null,
+                        "N": null,
+                        "NS": null,
+                        "NULL": null,
+                        "S": "6/6/2024 8:00:41 PM",
+                        "SS": null
+                    }
+                },
+                "OldImage": null,
+                "SequenceNumber": "471791100000000079659023726",
+                "SizeBytes": 140,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "EventID": "9160ca1c634377e69171424fed3dee9e",
+            "EventName": "INSERT",
+            "EventSource": "aws:dynamodb",
+            "EventVersion": "1.1",
+            "UserIdentity": null
+        }
+    ]
+}
